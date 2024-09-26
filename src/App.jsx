@@ -7,7 +7,7 @@ function App() {
         Vite + TailwindCSS Template, with 3 fonts
       </p>
       <p className="font-familjenGrotesk">
-        Vite + TailwindCSS Template, with 3 fonts
+        Vite + TailwindCSS Template, with 3 fonts pardeshi
       </p>
       <p className="font-spaceMono">
         Vite + TailwindCSS Template, with 3 fonts
