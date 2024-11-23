@@ -7,6 +7,7 @@ function App() {
         <div className="border-2 h-fit border-red-500 bg-white text-black w-[700px]">
           <div className="border-2 border-yellow-500 p-[10px]">
             <select className="w-[200px] px-2 py-2 rounded-md outline-none">
+              <option value="" disabled selected hidden>Choose a Building</option>
               <option value="">Building 1</option>
               <option value="">Building 2</option>
               <option value="">Building 3</option>
