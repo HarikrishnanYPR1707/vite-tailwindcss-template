@@ -30,7 +30,7 @@ function App() {
       <div className="mx-auto w-[1000px] columns-2 space-y-5 border border-red-500">
         {data.map((item, idx) => (
           // Here the "break-inside-avoid" property is important, it says how the column space should break
-          <div className="flex h-fit w-full break-inside-avoid flex-col gap-3 rounded-lg border bg-white p-10">
+          <div className="flex h-fit w-full flex-col gap-3 break-inside-avoid rounded-lg border bg-white p-10">
             <h3 className="font-familjenGrotesk text-5xl">{item.name}</h3>
             <span className="h-[5px] w-full bg-red-500"/>
             <p className="text-[12px] text-justify">{item.desc}</p>
